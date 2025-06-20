@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    --color-gray-light: #DCDCDC;
+    --color-black-light: #0F3348;
+    --color-yellow: #E2FF54;
+    --color-green: #00B512;
+    --color-dark-green: #646161;
+    --color-due-green: #646060;
+    --color-light-green: #006022;
+    --color-natural: #EAECF0;
+    --color-natural-black: #031B1D;
+    --color-natural-green: #04684C;
+    --color-orange: #F06323;
+    --color-off-white: #FBF9F1;
+    --color-light-black: #090909;
+    --leading-100: 100%;
+    --leading-150: 150%;
+    --leading-120: 120%;
+
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets//fonts/satoshi/Satoshi-Regular.otf');
+    font-display: swap;
+}
+
+* {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.satoshi {
+    font-family: 'Satoshi', sans-serif !important;
+}
+
+
+.bg_hero {
+    background-image: url('./assets/images/webp/bg-hero-graph-img.webp');
+    background-size: cover;
+    background-position: top;
+}
+
+.bg_trust {
+    background-image: url('./assets/images/webp/bg-trust-value.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.slide_container {
+    width: calc(360px * 4);
+    -webkit-animation: scroll 20s linear infinite;
+    animation: scroll 20s linear infinite;
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(calc(-190px * 6));
+        transform: translateX(calc(-190px * 6));
+    }
+}
+
+body::-webkit-scrollbar-track {
+    background: #D9D9D9;
+    border-radius: 12px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #04684C;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+    transition: background-color 0.3s ease;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
