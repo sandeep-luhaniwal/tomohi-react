@@ -81,7 +81,7 @@ const privacyPolicyData = [
         "Withdraw consent.",
         "Lodge a complaint with a regulatory authority.",
       ],
-      "To exercise your rights, please contact us at [support@myinteractiveinvoice.com].",
+      "To exercise your rights, please contact us at [support@tomohi.app].",
     ],
   },
   {
@@ -100,7 +100,7 @@ const privacyPolicyData = [
     title: "9. Contact Us",
     content: [
       "If you have any questions or concerns about this Privacy Policy, contact us at:",
-      ["Email: support@myinteractiveinvoice.com"],
+      ["Email: support@tomohi.app"],
     ],
   },
 ];

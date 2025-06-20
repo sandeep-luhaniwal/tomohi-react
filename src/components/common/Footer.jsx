@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
                 <div className="flex justify-center gap-3 pt-8 lg:pt-10">
                     {SOCIAL_MEDIA_LINK_LIST.map((obj, i) => (
-                        <Link
+                        <Link target='_blank'
                             to={obj.url}
                             key={i}
                             className='bg-[#2E36B7] duration-300 hover:bg-orange rounded-full w-8 h-8 flex justify-center items-center'

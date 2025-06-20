@@ -17,20 +17,20 @@ export const NAVIGATION_LINK_LIST = [
 
 export const SOCIAL_MEDIA_LINK_LIST = [
     {
-        url: "/",
+        url: "https://x.com/TomohiApp?t=8KCZuBJGipO35Sq1r-1i2w&s=09",
         icon: "twitter",
     },
     {
-        url: "/",
+        url: "https://www.facebook.com/people/Tomohi-App/61576886377326/?mibextid=ZbWKwL",
         icon: "facebook",
     },
     {
 
-        url: "/",
+        url: "https://www.instagram.com/tomohiapp?igsh=YTRvZ3N3bHV3MHN5",
         icon: "instagram",
     },
     {
-        url: "/",
+        url: "https://www.linkedin.com/company/tomohi-mentoring",
         icon: "linkedin",
     },
 ];

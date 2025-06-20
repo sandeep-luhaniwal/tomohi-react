@@ -61,7 +61,7 @@ const NavBar = () => {
                             })}
                         </div>
                         <div className="flex items-center gap-2 sm:gap-6">
-                            <a href='#download' className='text-gray-light font-semibold border border-white hover:bg-orange duration-300 hover:border-orange hover:text-white leading-100 py-2.5 md:py-3 px-2 sm:px-4 md:px-6 rounded-xl cursor-pointer'>
+                            <a href='#download' className='text-gray-light font-bold border border-white hover:bg-orange duration-300 hover:border-orange hover:text-white leading-100 py-2.5 md:py-3 px-2 sm:px-4 md:px-[17px] rounded-xl cursor-pointer'>
                                 Download App
                             </a>
                             <div className='md:hidden' onClick={() => setIsOpen(true)}>
