@@ -3,99 +3,249 @@ import React from "react";
 const termsData = [
   {
     title: "Last Updated",
-    content: ["22 May 2025"],
+    content: ["August 5, 2025"],
+  },
+  {
+    title: "Effective Date",
+    content: ["August 5, 2025"],
+  },
+  {
+    title: "Provider",
+    content: ["Tomohi Mentoring F.Z.E."],
   },
   {
     title: "INTRODUCTION",
     content: [
-      'Welcome to Interactive Invoice! These Terms and Conditions ("Terms") govern your use of our mobile application ("App") and the services provided by Interactive Invoice ("we", "us", or "our"). By downloading, accessing, or using the App, you agree to be bound by these Terms.',
-      "Please read these Terms carefully before using the App.",
+      "Welcome to Tomohi, an edtech platform connecting learners and mentors. By using our platform, you agree to the following Terms & Conditions and our Privacy Policy.",
     ],
   },
   {
-    title: "1. Eligibility",
-    content: ["You must be at least 18 years old and capable of entering into a legally binding agreement to use this App."],
-  },
-  {
-    title: "2. Services Provided",
+    title: "1. Acceptance of Terms",
     content: [
-      "The App allows users to:",
-      [
-        "Create and manage invoices and estimates",
-        "Customize invoice templates",
-        "Export and share invoice documents",
-        "Track payment status",
-      ],
-      "We reserve the right to add, modify, or remove features without notice.",
+      "Your use of the platform confirms your agreement to these Terms. We may update them from time to time.",
     ],
   },
   {
-    title: "3. User Responsibilities",
+    title: "2. Eligibility",
+    content: ["You must be 18+ or have parental consent to use Tomohi."],
+  },
+  {
+    title: "3. Account Management",
+    content: [
+      "You are responsible for your account's accuracy and security. Report unauthorized access to info@tomohi.com.",
+    ],
+  },
+  {
+    title: "4. User Obligations",
     content: [
       "You agree to:",
       [
-        "Provide accurate and complete information in your invoices/estimates",
-        "Use the App only for lawful business or personal purposes",
-        "Not use the App to create fraudulent or misleading documents",
+        "Use the platform legally and responsibly",
+        "Avoid misuse or disruption of services",
+        "Not attempt to reverse-engineer the app",
       ],
     ],
   },
   {
-    title: "4. Account and Data Security",
-    content: [
-      "You are responsible for maintaining the confidentiality of your account credentials and all activities under your account. We do not take responsibility for data loss due to user negligence or third-party access.",
-    ],
-  },
-  {
-    title: "5. Payment and Subscription",
-    content: [
-      "Some features may require a paid subscription. By subscribing, you authorize us to charge the applicable fees. All payments are non-refundable unless otherwise stated.",
-    ],
+    title: "5. Privacy Policy",
+    content: ["Your data is governed by our Privacy Policy."],
   },
   {
     title: "6. Intellectual Property",
+    content: ["All content is owned by Tomohi. Use without permission is prohibited."],
+  },
+  {
+    title: "7. Platform Exclusivity",
     content: [
-      "All content and technology used in the App, including logos, graphics, and source code, are owned or licensed by us. You may not copy, modify, distribute, or reverse engineer any part of the App.",
+      "Mentors and students must conduct all bookings and communications within Tomohi only. External transactions are forbidden and may lead to account suspension.",
     ],
   },
   {
-    title: "7. Privacy",
+    title: "8. License",
+    content: ["We grant a personal, non‑commercial license to use the app."],
+  },
+  {
+    title: "9. In‑App Purchases",
+    content: ["Any purchases made are subject to billing terms at the time of transaction."],
+  },
+  {
+    title: "10. User Content",
     content: [
-      'We are committed to protecting your privacy. Please refer to our [Privacy Policy] for details on how we collect, use, and store your information.',
+      "You retain ownership of submitted content but grant Tomohi the right to use and display it.",
+      "You must not submit unlawful or offensive material.",
     ],
   },
   {
-    title: "8. Limitation of Liability",
+    title: "11. Termination",
+    content: ["We may suspend or terminate your access for violations."],
+  },
+  {
+    title: "12. Disclaimer of Liability",
     content: [
-      'We provide the App "as is" without any warranties. We are not liable for any indirect, incidental, or consequential damages arising from your use of the App, including errors in invoices or financial losses.',
+      "We provide the app “as is” and disclaim responsibility for any service interruptions or losses.",
     ],
   },
   {
-    title: "9. Termination",
+    title: "13. User Conduct Disclaimer",
     content: [
-      "We may suspend or terminate your access to the App at our sole discretion if you violate these Terms or use the App in a manner that could cause harm to us or others.",
+      "Tomohi does not control the actions or content of its users and disclaims liability for any such behavior.",
     ],
   },
   {
-    title: "10. Modifications to Terms",
+    title: "14. Refund Policy",
     content: [
-      "We may update these Terms from time to time. Changes will be notified via the App or email. Continued use of the App after such updates constitutes acceptance of the new Terms.",
+      "Payments are non‑refundable, except in confirmed cases of mentor absence or technical failure.",
     ],
   },
   {
-    title: "11. Governing Law",
+    title: "15. Indemnity",
+    content: ["You agree to hold Tomohi harmless from any claims arising from your use of the platform."],
+  },
+  {
+    title: "16. Dispute Resolution",
+    content: ["Disputes are resolved via arbitration in Dubai, UAE."],
+  },
+  {
+    title: "17. Updates to Terms",
+    content: ["We may update these Terms at any time. Continued use signifies acceptance."],
+  },
+  {
+    title: "18. Governing Law",
+    content: ["These Terms are governed by UAE law."],
+  },
+  {
+    title: "Contact",
     content: [
-      "These Terms shall be governed by and interpreted in accordance with the laws of United States of America, without regard to conflict of laws principles.",
+      "📧 info@tomohi.com",
+      "📍 Ajman Free Zone, Building C1, UAE",
+      "🆔 B.C. 1302813",
     ],
   },
   {
-    title: "12. Contact Us",
+    title: "آخر تحديث",
+    content: ["٥ أغسطس ٢٠٢٥"],
+  },
+  {
+    title: "تاريخ النفاذ",
+    content: ["٥ أغسطس ٢٠٢٥"],
+  },
+  {
+    title: "المزود",
+    content: ["شركة Tomohi Mentoring F.Z.E."],
+  },
+  {
+    title: "مقدمة",
     content: [
-      "If you have any questions about these Terms, please contact us at:",
-      ["Email: support@tomohi.app"],
+      "مرحبًا بك في طموحي. باستخدامك للمنصة، فإنك توافق على شروط الاستخدام التالية وسياسة الخصوصية الخاصة بنا.",
+    ],
+  },
+  {
+    title: "١. القبول بالشروط",
+    content: [
+      "باستخدامك المستمر، فإنك توافق على هذه الشروط. قد نقوم بتحديثها من وقت لآخر.",
+    ],
+  },
+  {
+    title: "٢. الأهلية",
+    content: ["يجب أن يكون عمرك ١٨ سنة أو أكثر، أو الحصول على إذن الوالدين."],
+  },
+  {
+    title: "٣. إنشاء الحساب",
+    content: [
+      "أنت مسؤول عن معلومات حسابك وسريته. للإبلاغ عن مشاكل: info@tomohi.com",
+    ],
+  },
+  {
+    title: "٤. التزامات المستخدم",
+    content: [
+      "توافق على:",
+      [
+        "استخدام المنصة بشكل قانوني",
+        "عدم التلاعب أو تعطيل وظائف التطبيق",
+        "عدم محاولة اختراق أو عكس هندسة النظام",
+      ],
+    ],
+  },
+  {
+    title: "٥. سياسة الخصوصية",
+    content: ["بياناتك محمية حسب سياسة الخصوصية."],
+  },
+  {
+    title: "٦. الملكية الفكرية",
+    content: ["جميع حقوق المحتوى محفوظة لطموحي. يمنع الاستخدام بدون إذن."],
+  },
+  {
+    title: "٧. الاستخدام الحصري للمنصة",
+    content: [
+      "يجب أن تتم جميع المعاملات والتواصل حصريًا عبر طموحي.",
+      "أي تعامل خارجي يعرض الحساب للتعليق أو الإيقاف.",
+    ],
+  },
+  {
+    title: "٨. الترخيص",
+    content: ["نمنحك ترخيصًا محدودًا لاستخدام التطبيق لأغراض شخصية فقط."],
+  },
+  {
+    title: "٩. المشتريات داخل التطبيق",
+    content: ["الشراء خاضع لشروط الدفع عند إتمام العملية."],
+  },
+  {
+    title: "١٠. المحتوى المُقدم",
+    content: [
+      "تحتفظ بحقوق محتواك، لكن تمنح طموحي ترخيصًا باستخدامه ضمن المنصة.",
+      "يُمنع إرسال أي محتوى غير قانوني أو مسيء.",
+    ],
+  },
+  {
+    title: "١١. الإنهاء",
+    content: ["نحتفظ بحق تعليق أو إنهاء وصولك إذا خالفت الشروط."],
+  },
+  {
+    title: "١٢. إخلاء المسؤولية",
+    content: [
+      "نقدّم التطبيق \"كما هو\" دون ضمانات. لسنا مسؤولين عن أي أعطال أو خسائر.",
+    ],
+  },
+  {
+    title: "١٣. مسؤولية المستخدمين",
+    content: [
+      "طموحي لا يراقب سلوك أو محتوى المستخدمين، ولا يتحمل المسؤولية عنه.",
+    ],
+  },
+  {
+    title: "١٤. سياسة الاسترداد",
+    content: [
+      "المدفوعات غير قابلة للاسترداد، إلا في حال الغياب المؤكد أو مشاكل فنية مثبتة.",
+    ],
+  },
+  {
+    title: "١٥. التعويض",
+    content: [
+      "أنت توافق على تعويض \"طموحي\" عن أي مطالبات ناتجة عن استخدامك للمنصة.",
+    ],
+  },
+  {
+    title: "١٦. حل النزاعات",
+    content: ["يتم تسوية النزاعات بالتحكيم في دبي – الإمارات العربية المتحدة."],
+  },
+  {
+    title: "١٧. التعديلات",
+    content: ["قد نقوم بتحديث الشروط، ويُعتبر استمرار الاستخدام موافقة ضمنية."],
+  },
+  {
+    title: "١٨. القانون المُطبق",
+    content: ["تخضع هذه الشروط لقوانين دولة الإمارات العربية المتحدة."],
+  },
+  {
+    title: "للتواصل",
+    content: [
+      "📧 info@tomohi.com",
+      "📍 عجمان، منطقة عجمان الحرة – مبنى C1",
+      "🆔 B.C. 1302813",
     ],
   },
 ];
+
 
 const TermsAndConditions = () => {
   const renderContent = (item, i) => {

@@ -1,106 +1,206 @@
 import React from "react";
 
 const privacyPolicyData = [
+  
   {
     title: "Effective Date",
-    content: ["22 May 2025"],
+    content: ["August 5, 2025"],
+  },
+  {
+    title: "Provider",
+    content: ["Tomohi Mentoring F.Z.E."],
   },
   {
     title: "INTRODUCTION",
     content: [
-      "Thank you for using Interactive Invoice. Your privacy is important to us, and this Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.",
-      "By using the Interactive Invoice app, you agree to the terms outlined in this Privacy Policy.",
+      "At Tomohi, we are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and share your information when you use our platform.",
     ],
   },
   {
     title: "1. Information We Collect",
     content: [
-      "We collect the following types of information:",
-      "a) Personal Information",
+      "• Personal Information:",
       [
-        "Name, email address, and contact details when you register or contact support.",
-        "Company name, address, and tax information when setting up your profile.",
+        "Name, email, phone number, location, and payment details (if applicable).",
       ],
-      "b) Business Data",
+      "• Usage Data:",
       [
-        "Invoice and estimate details (e.g., client name, billing items, amounts).",
-        "Payment status and due dates.",
-        "Optional notes and descriptions provided by you.",
-      ],
-      "c) Device Information",
-      [
-        "Device model, operating system, app version, and crash logs to improve app performance.",
-        "IP address for security and analytics purposes.",
+        "Device type, operating system, usage patterns, crash logs, and IP address.",
       ],
     ],
   },
   {
     title: "2. How We Use Your Information",
     content: [
-      "We use the information to:",
+      "We use your data to:",
       [
-        "Generate invoices and estimates.",
-        "Store and sync your billing data securely.",
-        "Send you service-related notifications.",
-        "Improve app performance and user experience.",
-        "Provide customer support.",
+        "Provide and improve our services.",
+        "Personalize your experience.",
+        "Communicate with you.",
+        "Process payments (if applicable).",
+        "Comply with legal obligations.",
       ],
     ],
   },
   {
-    title: "3. Data Sharing and Disclosure",
+    title: "3. Sharing Your Information",
     content: [
-      "We do not sell or rent your personal or business data.",
-      "We may share your data with:",
+      "We do not sell your data. We may share it with:",
       [
-        "Cloud service providers (e.g., for secure data storage and backup).",
-        "Law enforcement or regulatory bodies, when required by law.",
-        "Third-party analytics tools (non-personal information only) for app improvement.",
+        "Service providers (hosting, analytics, payments).",
+        "Legal authorities if required.",
+        "Affiliates within our organization under confidentiality.",
       ],
     ],
   },
   {
-    title: "4. Data Security",
+    title: "4. Your Rights",
     content: [
-      "We implement appropriate technical and organizational measures to safeguard your information. All sensitive data is encrypted during transmission and securely stored.",
+      "You may have the right to:",
+      [
+        "Access, update, or delete your data.",
+        "Object to or limit how we process it.",
+      ],
+      "To exercise your rights, contact us at info@tomohi.com.",
     ],
   },
   {
     title: "5. Data Retention",
     content: [
-      "Your data is retained as long as your account is active or as needed to provide our services. You may request deletion of your account and data at any time by contacting us.",
+      "We keep your data only as long as needed for service and legal purposes.",
     ],
   },
   {
-    title: "6. Your Rights",
+    title: "6. Children’s Privacy",
     content: [
-      "Depending on your location, you may have rights to:",
+      "We do not knowingly collect data from children under 18 without parental consent. Any such data will be deleted immediately.",
+    ],
+  },
+  {
+    title: "7. Data Security",
+    content: [
+      "We use technical and organizational safeguards. However, no system is 100% secure.",
+    ],
+  },
+  {
+    title: "8. Third‑Party Services",
+    content: [
+      "Our platform may link to third‑party tools (e.g., payments, analytics). We are not responsible for their privacy practices.",
+    ],
+  },
+  {
+    title: "9. Changes to This Policy",
+    content: [
+      "We may update this policy and notify you of major changes via app or email.",
+    ],
+  },
+  {
+    title: "10. Contact",
+    content: [
+      "Tomohi Mentoring F.Z.E.",
+      "📧 info@tomohi.com",
+      "📍 Ajman, United Arab Emirates",
+    ],
+  },
+
+  {
+    title: "تاريخ النفاذ",
+    content: ["٥ أغسطس ٢٠٢٥"],
+  },
+  {
+    title: "المزود",
+    content: ["شركة Tomohi Mentoring F.Z.E."],
+  },
+  {
+    title: "مقدمة",
+    content: [
+      "نلتزم في طموحي بحماية خصوصيتك. توضح هذه السياسة كيف نجمع بياناتك ونستخدمها ونشاركها عند استخدامك منصتنا.",
+    ],
+  },
+  {
+    title: "١. المعلومات التي نقوم بجمعها",
+    content: [
+      "• المعلومات الشخصية:",
       [
-        "Access or correct your information.",
-        "Delete your data.",
-        "Withdraw consent.",
-        "Lodge a complaint with a regulatory authority.",
+        "الاسم، البريد الإلكتروني، رقم الهاتف، الموقع، ومعلومات الدفع (إن وجدت).",
       ],
-      "To exercise your rights, please contact us at [support@tomohi.app].",
+      "• بيانات الاستخدام:",
+      [
+        "نوع الجهاز، نظام التشغيل، أنماط الاستخدام، سجلات الأعطال، وعنوان IP.",
+      ],
     ],
   },
   {
-    title: "7. Children's Privacy",
+    title: "٢. كيفية استخدامنا للمعلومات",
     content: [
-      "Interactive Invoice is not intended for users under the age of 13. We do not knowingly collect personal information from children.",
+      "نستخدم بياناتك من أجل:",
+      [
+        "تقديم وتحسين خدماتنا.",
+        "تخصيص تجربتك.",
+        "التواصل معك.",
+        "معالجة المدفوعات (إن وجدت).",
+        "الالتزام بالمتطلبات القانونية.",
+      ],
     ],
   },
   {
-    title: "8. Changes to This Policy",
+    title: "٣. مشاركة المعلومات",
     content: [
-      "We may update this Privacy Policy from time to time. We will notify you of any material changes through the app or via email.",
+      "لا نقوم ببيع معلوماتك. قد نشاركها مع:",
+      [
+        "مزودي الخدمات (الاستضافة، التحليلات، الدفع).",
+        "السلطات القانونية عند الطلب.",
+        "شركاتنا التابعة ضمن شروط السرية.",
+      ],
     ],
   },
   {
-    title: "9. Contact Us",
+    title: "٤. حقوقك",
     content: [
-      "If you have any questions or concerns about this Privacy Policy, contact us at:",
-      ["Email: support@tomohi.app"],
+      "قد يكون لديك الحق في:",
+      [
+        "الوصول إلى بياناتك أو تعديلها أو حذفها.",
+        "الاعتراض أو تقييد كيفية معالجتها.",
+      ],
+      "للطلب، راسلنا على info@tomohi.com.",
+    ],
+  },
+  {
+    title: "٥. الاحتفاظ بالبيانات",
+    content: [
+      "نحتفظ ببياناتك للمدة اللازمة لتقديم الخدمة أو وفقًا لما يتطلبه القانون.",
+    ],
+  },
+  {
+    title: "٦. خصوصية الأطفال",
+    content: [
+      "لا نجمع معلومات من الأطفال تحت سن ١٨ دون موافقة الوالدين. سنقوم بحذفها فورًا إن وُجدت.",
+    ],
+  },
+  {
+    title: "٧. الأمان",
+    content: [
+      "نستخدم تدابير تقنية وتنظيمية لحماية بياناتك. رغم ذلك، لا يوجد نظام آمن ١٠٠٪.",
+    ],
+  },
+  {
+    title: "٨. خدمات الأطراف الثالثة",
+    content: [
+      "قد تحتوي منصتنا على أدوات أو روابط لخدمات خارجية. لسنا مسؤولين عن سياساتهم.",
+    ],
+  },
+  {
+    title: "٩. التعديلات على السياسة",
+    content: [
+      "قد نُجري تغييرات ونُبلغك بالتحديثات الجوهرية عبر التطبيق أو البريد الإلكتروني.",
+    ],
+  },
+  {
+    title: "١٠. تواصل معنا",
+    content: [
+      "شركة Tomohi Mentoring F.Z.E.",
+      "📧 info@tomohi.com",
+      "📍 عجمان، الإمارات العربية المتحدة",
     ],
   },
 ];
