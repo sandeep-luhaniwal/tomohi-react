@@ -7,7 +7,7 @@ const Heading = ({ maxWidth, children, left, right, className, white, black }) =
             className={`${className && className} 
             ${left ? ' ml-0 mr-auto text-left' : right ? 'ml-auto mr-0 text-right' : 'mx-auto text-center'}
          ${white ? "text-white" : black ? "text-black" : "text-light-black "}
-          satoshi font-normal leading-120 text-4xl md:text-[40px] lg:text-5xl
+          satoshi uppercase font-normal leading-120 text-4xl md:text-[40px] lg:text-[44px]
 `}
         >
             {children}

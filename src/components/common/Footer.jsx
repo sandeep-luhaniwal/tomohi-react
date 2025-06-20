@@ -9,10 +9,10 @@ import Icons from './Icons';
 const Footer = () => {
     const year = new Date().getFullYear();
     return (
-        <div className='bg-[#f2f3f3]'>
+        <div className='bg-[#F6F9F8]'>
             <div className='max-w-[1140px] mx-auto px-4 xl:px-0 pt-10 md:pt-16 lg:pt-20 flex flex-col justify-center items-center'>
                 <Link onClick={() => window.scrollTo(0, 0)} to="/">
-                    <img src={footer_logo} alt="footer logo" className='w-[229px]' />
+                    <img src={footer_logo} alt="footer logo" className='w-[201px]' />
                 </Link>
 
                 <div id='download' className="flex gap-5 pt-4 ">
@@ -28,7 +28,7 @@ const Footer = () => {
                         <Link
                             to={obj.url}
                             key={i}
-                            className='bg-light-green duration-300 hover:bg-orange rounded-full w-8 h-8 flex justify-center items-center'
+                            className='bg-[#2E36B7] duration-300 hover:bg-orange rounded-full w-8 h-8 flex justify-center items-center'
                         >
                             <Icons icon={obj.icon} />
                         </Link>
@@ -37,14 +37,14 @@ const Footer = () => {
                 <p className='text-black py-4 text-center font-semibold text-sm leading-100'>Send Your Feedback:
                     <a
                         className="font-normal max-sm:block ms-1 text-black duration-300 hover:text-green"
-                        href="mailto:support@myinteractiveinvoice.com"
+                        href="mailto:support@tomohi.app"
                     >
-                        support@myinteractiveinvoice.com
+                        support@tomohi.app
                     </a>
                 </p>
 
                 <div className="flex flex-col lg:flex-row justify-between w-full mt-5 py-5 border-t-[0.2px] gap-4 items-center">
-                    <p className='text-due-green order-2 lg:order-1 text-sm md:text-base leading-150'>© {year} Interactive Invoice. All rights reserved.</p>
+                    <p className='text-due-green order-2 lg:order-1 text-sm md:text-base leading-150'>© {year} tomohi. All rights reserved.</p>
                     <div className="flex flex-wrap order-1 lg:order-2 justify-center gap-2 md:gap-4">
                         {FOOTER_POLICY_LINKS.map((link, i) => (
                             <div key={i} className="flex items-center gap-2">

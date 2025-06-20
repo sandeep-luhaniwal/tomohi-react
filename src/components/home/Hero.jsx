@@ -6,12 +6,12 @@ import TagBox from '../common/TagBox'
 
 const Hero = () => {
     return (
-        <div className='max-w-[1140px] mx-auto px-4 w-full xl:px-0 pb-11 pt-8 md:pt-13 lg:pt-[66px]'>
+        <div className='max-w-[1140px] mx-auto px-4 w-full xl:px-0 py-8 md:py-10 lg:py-11'>
             <div className="grid md:grid-cols-[60%_40%] xl:grid-cols-[55%_45%] grid-cols-1 items-center">
                 <div className='order-2 md:order-1 pt-10 md:pt-0'>
                     <TagBox white >100% TRUSTED PLATFORM</TagBox>
-                    <h1 className='satoshi font-black text-white text-[40px] sm:text-[44px] py-3 lg:text-6xl xl:text-[58px] leading-120'>LEARN FROM TOP MENTORS <span className='text-orange'>MASTER NEW SKILLS</span></h1>
-                    <p className='text-[#dcdcdc] font-medium text-base lg:max-w-[640px] capitalize'>
+                    <h1 className='satoshi font-black text-white text-[40px] sm:text-[44px] py-3 lg:text-[52px] xl:text-[58px] leading-120'>LEARN FROM TOP MENTORS <span className='text-orange xl:block'>MASTER NEW SKILLS</span></h1>
+                    <p className='text-[#dcdcdc] poppins leading-150 font-medium text-base lg:max-w-[640px] capitalize'>
                         Access expert-led courses and personalized mentorship—all in one trusted learning platform. Whether you're just starting or looking to upskill, Tomohi helps you grow smarter, faster.
                     </p>
                     {/* <div className='mt-6 lg:mt-8 xl:mt-10 flex group cursor-pointer max-w-max'>

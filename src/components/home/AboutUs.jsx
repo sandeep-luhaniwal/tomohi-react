@@ -9,16 +9,16 @@ gsap.registerPlugin(ScrollTrigger);
 
 const features = [
   {
-    title: 'Expenses Tracker',
-    desc: 'Track your business expenses with ease. Gain valuable insights into your spending patterns, categorize expenses.',
+    title: 'Course Library',
+    desc: 'Access a wide range of curated courses designed to boost your skills across industries.',
   },
   {
-    title: 'Invoice Management',
-    desc: 'Generate invoices with just a few clicks and send them directly to clients.',
+    title: 'Expert Mentors',
+    desc: 'Learn directly from seasoned professionals through live sessions and 1-on-1 guidance.',
   },
   {
-    title: 'Automated Payment Reminders',
-    desc: 'No more manual follow-ups. Set up automated reminders for overdue payments.',
+    title: 'Skill-Based Assessments',
+    desc: 'Track your growth with interactive quizzes and earn certifications that matter.',
   }
 ];
 
@@ -63,19 +63,19 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <div id='about_us' className='max-w-[1140px] mx-auto px-4 w-full xl:px-0 py-14 md:py-16 lg:py-20 xl:pt-[100px] xl:pb-[120px]'>
+    <div id='about_us' className='max-w-[1140px] mx-auto px-4 w-full xl:px-0 py-14 md:py-16 lg:py-20 xl:py-[100px]'>
       <div className="grid grid-cols-1 md:grid-cols-[40%_60%] lg:grid-cols-2  items-center">
         <div className='flex justify-center md:pe-4'>
           <img src={about_us} alt="chart" className="max-w-[493px] w-full" />
         </div>
         <div className='md:ps-3 pt-10 md:pt-0'>
           <TagBox border>about us</TagBox>
-          <Heading className={"py-4"} left>All your money needs in one app</Heading>
+          <Heading className={"py-4"} left>ALL YOUR LEARNING NEEDS IN ONE APP</Heading>
           <div className="relative pl-6 lg:pl-[31px]" ref={containerRef}>
-            <div className="absolute left-0 top-0 h-full w-2 lg:w-[11px] bg-[#d9d9d9] rounded-full">
+            <div className="absolute left-0 top-0 h-full w-2 lg:w-[11px] bg-[#D9D9D9] rounded-full">
               <div
                 ref={lineRef}
-                className="w-full bg-[#04684C] rounded-full h-0 origin-top"
+                className="w-full bg-orange rounded-full h-0 origin-top"
               ></div>
             </div>
 
@@ -88,7 +88,7 @@ const AboutUs = () => {
                     }`}
                 >
                   <h3 className="lg:text-xl leading-150 text-base md:text-lg font-bold text-black">{feature.title}</h3>
-                  <p className=" text-sm lg:text-base leading-150">{feature.desc}</p>
+                  <p className="pt-2 text-sm lg:text-base leading-150">{feature.desc}</p>
                 </div>
               ))}
             </div>
